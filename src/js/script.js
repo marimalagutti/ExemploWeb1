@@ -67,3 +67,34 @@ console.log(valor1 > 10 && valor2 < 10); //E
 console.log(valor1 > 100 || valor2 < 10); //OU
 console.log(valor1 == valor2); 
 console.log(valor2 === valor1);
+
+/**************************************************/
+//EXERCÍCIOS 
+
+//1)
+const p=20;
+const v=10;
+
+const precoFinal= p-v;
+console.log("O preço final com desconto é", precoFinal,)
+
+//2)
+let a=20;
+let b=10;
+
+let comparar= (a ==20 && b >= 10);
+console.log("O Resultado é:", comparar);
+
+//3) do thiago
+var user_login=true;
+var user_password=true;
+if(user_login == true){
+    console.log("Transação Realizada")
+}
+ //3) do professor cidade
+ const usuarioLogado=20;
+ const tempoToken=10;
+
+ const transacao =(usuarioLogado ===20 && tempoToken >=10);
+ console.log("Transação Autorizada", transacao)
+ 
